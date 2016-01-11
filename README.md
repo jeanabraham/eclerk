@@ -1,11 +1,11 @@
 eClerk
 ==============================
 
-A simple Ruby application, using Sinatra, to automate Evernote tasks through the Evernote Cloud API.
+A simple Sinatra-based application to automate Evernote tasks using the Evernote Cloud API.
 
-Evernote is an excellent app. eClerk is intended to augment EverNote features with user-specific demands. A new feature that will be added is the maintenence a "Day Planner" notebook which contains a to-do notes for each day. eClerk can be used to automate these note creations rather than having to manually create, and remove notes for past days.
+Evernote is an excellent app. eClerk seeks to augment Evernote features with user-specific demands. For instance, the maintenance of a basic "Day Planner" notebook containing daily TODO notes. eClerk can be used to automate these note creations rather than having to manually create, and remove notes for past days.
 
-For instance, if I wanted a 7 new Day Planner notes created for the coming week, I can automate it with a click that will leave me the following 7 new notes in the Day Planner notebook:
+If I wanted 7 new "Day Planner" notes (like ones below) created for the coming week, I could have them generated with a click:
 
 159 Sunday, 08 Jun   
 160 Monday, 09 Jun   
@@ -18,7 +18,7 @@ For instance, if I wanted a 7 new Day Planner notes created for the coming week,
 The format of the note titles: &lt;Day of year&gt; &lt;Day of week&gt;, &lt;Day of month&gt; &lt;month&gt;
 
 
-**_eClerk/evernote_config.rb_** will need to be added once you obtain an Evernote API key
+**_eClerk/evernote_config.rb_** will need to be updated with your Evernote API key (OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET)
 ```ruby
 # Load libraries required by the Evernote OAuth sample applications
 require 'oauth'
