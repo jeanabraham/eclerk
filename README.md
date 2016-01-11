@@ -18,7 +18,7 @@ If I wanted 7 new "Day Planner" notes (like ones below) created for the coming w
 The format of the note titles: &lt;Day of year&gt; &lt;Day of week&gt;, &lt;Day of month&gt; &lt;month&gt;
 
 
-**_eClerk/evernote_config.rb_** will need to be updated with your Evernote API key (OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET)
+**_eClerk/evernote_config.rb_** will need to be added with your Evernote API key (OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET)
 ```ruby
 # Load libraries required by the Evernote OAuth sample applications
 require 'oauth'
