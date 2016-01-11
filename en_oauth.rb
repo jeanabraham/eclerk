@@ -107,7 +107,7 @@ get '/generate' do
     dayPlannerNotesMetadataList = getDayPlannerNotes
     if session[:day_planner_guid] != 0
       today = Time.new
-      for i in 0..30
+      for i in 0..7
         note = Evernote::EDAM::Type::Note.new
         day = today + (60 * 60 * 24)*i
         #Format of title: 234 Sunday, 8 June
