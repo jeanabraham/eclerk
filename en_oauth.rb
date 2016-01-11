@@ -115,9 +115,9 @@ get '/generate' do
         note.notebookGuid = session[:day_planner_guid]
         note.content = "<!DOCTYPE en-note SYSTEM \"http://xml.evernote.com/pub/enml2.dtd\">
         <en-note>  
-    <div><en-todo/>Time in the Word</div>
-    <div><en-todo/></div>
-    <div><en-todo/>Prayer</div>
+    <div><en-todo/>Todo #1</div>
+    <div><en-todo/>....</div>
+    <div><en-todo/>Todo #n</div>
     <br/>
     <br/>
     <b>Day Scribbles</b>:
